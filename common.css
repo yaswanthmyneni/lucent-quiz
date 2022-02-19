@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import "https://ym-cl-dev.netlify.app/component.css";
+
+:root {
+  --z-index-header-5: 5;
+  
+  --media-query-xs: 480px;
+  --media-query-sm: 640px;
+  --media-query-md: 768px;
+  --media-query-lg: 1024px;
+  --media-query-xl: 1280px;
+  --media-query-2xl: 1536px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0rem;
+  background-color: var(--color-main-bg);
+  scroll-behavior: smooth;
+}
+
+/* header Section */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-index-header-5);
+  margin-bottom: 8px;
+}
+
+.header h1 {
+  font-family: "Permanent Marker", cursive;
+  margin-left: 2.5rem;
+}
+
+.navbar-container {
+  padding: 0;
+}
+
+/* Footer Section */
+.footer {
+  margin-top: auto;
+  padding: 1rem;
+  background-color: var(--color-green-100);
+  text-align: center;
+}
+
+.social-links {
+  font-size: 1.5rem;
+  margin-right: 1.8rem;
+  color: var(--color-black);
+}
