@@ -1,0 +1,24 @@
+@import "../../common.css";
+
+/* Main Section */
+.main {
+  margin: 0 3rem;
+}
+
+.category-container {
+  margin: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.category {
+  width: 18rem;
+  height: 22rem;
+  text-decoration: none;
+  color: var(--color-black);
+  gap: 8px;
+}
+
+.width-100 {
+    width: 100%;
+}
