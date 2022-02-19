@@ -23,14 +23,15 @@
     justify-content: space-between;
 }
 
-.width-15 {
+.width-16rem {
     width: 16rem;
 }
 
-.margin-2 {
+.margin-lr-3rem {
     margin: 0 3rem;
 }
 
 .text-center button {
     margin-top: 8px; 
+    padding: 1em 2em;
 }
