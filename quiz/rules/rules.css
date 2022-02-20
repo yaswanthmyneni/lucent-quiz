@@ -31,6 +31,10 @@
     margin: 0 3rem;
 }
 
+.main a {
+    display: block;
+}
+
 .text-center button {
     margin-top: 8px; 
     padding: 1em 2em;
