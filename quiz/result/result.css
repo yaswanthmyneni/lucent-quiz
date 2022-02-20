@@ -1,0 +1,40 @@
+@import "../../common.css";
+
+/* Main Section */
+.main {
+    width: 45%;
+    margin: 8px auto;
+}
+
+.m-bottom {
+    margin-bottom: 1.5rem;
+}
+
+.button {
+    margin: 8px 0;
+    padding: 1em;
+    border: none;
+    border-radius: 14px;
+    display: block;
+    width: 100%;
+    color: var(--color-white);
+    background-color: var(--color-green-600);
+    font-size: 1rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-direction {
+    flex-direction: column
+}
+
+.correct-answer {
+    background-color: var(--color-green-400);
+}
+
+.wrong-answer {
+    background-color: var(--color-red);
+}
