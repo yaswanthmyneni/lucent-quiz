@@ -10,16 +10,15 @@
     margin-bottom: 1.5rem;
 }
 
-.button {
-    margin: 8px 0;
-    padding: 1em;
-    border: none;
+.answer{
+    margin: 1rem 0;
+    padding: 1rem 0;
     border-radius: 14px;
-    display: block;
-    width: 100%;
     color: var(--color-white);
     background-color: var(--color-green-600);
     font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 .flex {
