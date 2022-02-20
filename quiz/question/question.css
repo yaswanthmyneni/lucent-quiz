@@ -1,0 +1,39 @@
+@import "../../common.css";
+
+/* Main Section */
+
+.main {
+    width: 45%;
+    margin: 1rem auto;
+}
+
+.main h2{
+    margin-bottom: 1.5rem;
+}
+
+.main button {
+    margin: 8px 0;
+    padding: 1em;
+    border-radius: 14px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-direction {
+    flex-direction: column
+}
+
+.flex a {
+    text-decoration: none;
+    color: var(--color-black);
+    margin: 0 1rem;
+}
+
+.m-b-2rem {
+    margin-bottom: 2rem;
+}
+
+
