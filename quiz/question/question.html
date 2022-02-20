@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lucent quiz</title>
-    <link rel="stylesheet" href="rules.css">
+    <link rel="stylesheet" href="question.css">
 </head>
 
 <body>
@@ -34,50 +34,26 @@
 
     <!-- Main Section Starts -->
     <main class="main">
-        <div class="margin-lr-3rem">
+        <div class="flex flex-direction">
+            <h2 class="text-center">Quiz Name</h2>
             <div class="flex">
-                <div class="image-container">
-                    <img class="image-resp" src="../../images/quiz.png" alt="selected quiz image">
-                </div>
-                <div class="width-16rem">
-                    <div class="flex">
-                        <h3>Date:</h3>
-                        <h5>19/02/22</h5>
-                    </div>
-                    <div class="flex">
-                        <h3>Time Limit:</h3>
-                        <h5>30 mins</h5>
-                    </div>
-                    <div class="flex">
-                        <h3>Attempts:</h3>
-                        <h5>2</h5>
-                    </div>
-                    <div class="flex">
-                        <h3>Points</h3>
-                        <h5>50</h5>
-                    </div>
-                </div>
+                <p>Question: 1 / 5</p>
+                <p>Score: 0</p>   
             </div>
-            <div>
-                <h2>Rules:</h2>
-                <ol>
-                    <li>
-                        <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                    </li>
-                    <li>
-                        <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                    </li>
-                    <li>
-                        <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                    </li>
-                    <li>
-                        <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h5>
-                    </li>
-                </ol>
+            <h4 class="m-b-2rem">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod inventore sapiente repudiandae, quisquam culpa ut reprehenderit consectetur quos tenetur odio illo commodi magnam cumque voluptatibus, aperiam nesciunt, enim sint. Architecto.
+            </h4>
+            <button class="btn btn-primary">Answer 1</button>
+            <button class="btn btn-primary">Answer 2</button>
+            <button class="btn btn-primary">Answer 3</button>
+            <div class="flex">
+                <a href="../rules/rules.html">
+                    <p class="text-xl"><i class="fa-solid fa-circle-arrow-left"></i> Previous</p>
+                </a>
+                <a href="../result/result.html">
+                    <p class="text-xl">Next <i class="fa-solid fa-circle-arrow-right"></i></p>
+                </a>
             </div>
-            <a href="../question/question.html" class="text-center">
-                <button class="btn btn-primary">Start quiz</button>
-            </a>
         </div>
     </main>
     <!-- Main Section Ends -->
